@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="6" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="58401" started-at="2019-05-04T10:53:33Z" finished-at="2019-05-04T10:54:32Z">
+    <groups>
+    </groups>
+    <test name=" Chrome Test" duration-ms="38050" started-at="2019-05-04T10:53:33Z" finished-at="2019-05-04T10:54:11Z">
+      <class name="scripts.ValidLoginLogoutTest">
+        <test-method status="PASS" signature="openappn(java.lang.String)[pri:0, instance:scripts.ValidLoginLogoutTest@5c7fa833]" name="openappn" is-config="true" duration-ms="7506" started-at="2019-05-04T16:23:33Z" finished-at="2019-05-04T16:23:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tests]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openappn -->
+        <test-method status="PASS" signature="ValidTest()[pri:0, instance:scripts.ValidLoginLogoutTest@5c7fa833]" name="ValidTest" duration-ms="5588" started-at="2019-05-04T16:23:41Z" finished-at="2019-05-04T16:23:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidTest -->
+        <test-method status="PASS" signature="closeappn()[pri:0, instance:scripts.ValidLoginLogoutTest@5c7fa833]" name="closeappn" is-config="true" duration-ms="762" started-at="2019-05-04T16:23:46Z" finished-at="2019-05-04T16:23:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeappn -->
+      </class> <!-- scripts.ValidLoginLogoutTest -->
+      <class name="scripts.InvalidLoginTest">
+        <test-method status="PASS" signature="openappn(java.lang.String)[pri:0, instance:scripts.InvalidLoginTest@39aeed2f]" name="openappn" is-config="true" duration-ms="10967" started-at="2019-05-04T16:23:47Z" finished-at="2019-05-04T16:23:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tests]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openappn -->
+        <test-method status="FAIL" signature="Invlaid()[pri:0, instance:scripts.InvalidLoginTest@39aeed2f]" name="Invlaid" duration-ms="1311" started-at="2019-05-04T16:23:58Z" finished-at="2019-05-04T16:23:59Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//span[.='Username or Password is invalid. Please try again.']"}
+  (Session info: chrome=74.0.3729.131)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-KT2H56T', ip: '192.168.1.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\Faculty\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52379}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.131, webStorageEnabled: true}
+Session ID: 1e9ca890555e181b8c192bdd9a3431db
+*** Element info: {Using=xpath, value=//span[.='Username or Password is invalid. Please try again.']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[.='Username or Password is invalid. Please try again.']"}
+  (Session info: chrome=74.0.3729.131)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-KT2H56T', ip: '192.168.1.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\Faculty\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52379}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.131, webStorageEnabled: true}
+Session ID: 1e9ca890555e181b8c192bdd9a3431db
+*** Element info: {Using=xpath, value=//span[.='Username or Password is invalid. Please try again.']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.isDisplayed(Unknown Source)
+	at pom.LoginPage.Verifyerrmsg(LoginPage.java:42)
+	at scripts.InvalidLoginTest.Invlaid(InvalidLoginTest.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Invlaid -->
+        <test-method status="PASS" signature="closeappn()[pri:0, instance:scripts.InvalidLoginTest@39aeed2f]" name="closeappn" is-config="true" duration-ms="852" started-at="2019-05-04T16:24:00Z" finished-at="2019-05-04T16:24:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeappn -->
+      </class> <!-- scripts.InvalidLoginTest -->
+      <class name="scripts.VerifyTest">
+        <test-method status="PASS" signature="openappn(java.lang.String)[pri:0, instance:scripts.VerifyTest@724af044]" name="openappn" is-config="true" duration-ms="7621" started-at="2019-05-04T16:24:00Z" finished-at="2019-05-04T16:24:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tests]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openappn -->
+        <test-method status="PASS" signature="Verify()[pri:0, instance:scripts.VerifyTest@724af044]" name="Verify" duration-ms="2666" started-at="2019-05-04T16:24:08Z" finished-at="2019-05-04T16:24:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify -->
+        <test-method status="PASS" signature="closeappn()[pri:0, instance:scripts.VerifyTest@724af044]" name="closeappn" is-config="true" duration-ms="743" started-at="2019-05-04T16:24:11Z" finished-at="2019-05-04T16:24:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeappn -->
+      </class> <!-- scripts.VerifyTest -->
+    </test> <!--  Chrome Test -->
+    <test name=" Firefox Test" duration-ms="58401" started-at="2019-05-04T10:53:33Z" finished-at="2019-05-04T10:54:32Z">
+      <class name="scripts.ValidLoginLogoutTest">
+        <test-method status="PASS" signature="openappn(java.lang.String)[pri:0, instance:scripts.ValidLoginLogoutTest@6d00a15d]" name="openappn" is-config="true" duration-ms="20284" started-at="2019-05-04T16:23:33Z" finished-at="2019-05-04T16:23:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openappn -->
+        <test-method status="PASS" signature="ValidTest()[pri:0, instance:scripts.ValidLoginLogoutTest@6d00a15d]" name="ValidTest" duration-ms="6476" started-at="2019-05-04T16:23:54Z" finished-at="2019-05-04T16:24:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidTest -->
+        <test-method status="PASS" signature="closeappn()[pri:0, instance:scripts.ValidLoginLogoutTest@6d00a15d]" name="closeappn" is-config="true" duration-ms="9469" started-at="2019-05-04T16:24:00Z" finished-at="2019-05-04T16:24:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeappn -->
+      </class> <!-- scripts.ValidLoginLogoutTest -->
+      <class name="scripts.InvalidLoginTest">
+        <test-method status="PASS" signature="openappn(java.lang.String)[pri:0, instance:scripts.InvalidLoginTest@51efea79]" name="openappn" is-config="true" duration-ms="6460" started-at="2019-05-04T16:24:10Z" finished-at="2019-05-04T16:24:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openappn -->
+        <test-method status="PASS" signature="Invlaid()[pri:0, instance:scripts.InvalidLoginTest@51efea79]" name="Invlaid" duration-ms="1033" started-at="2019-05-04T16:24:16Z" finished-at="2019-05-04T16:24:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Invlaid -->
+        <test-method status="PASS" signature="closeappn()[pri:0, instance:scripts.InvalidLoginTest@51efea79]" name="closeappn" is-config="true" duration-ms="4647" started-at="2019-05-04T16:24:17Z" finished-at="2019-05-04T16:24:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeappn -->
+      </class> <!-- scripts.InvalidLoginTest -->
+      <class name="scripts.VerifyTest">
+        <test-method status="PASS" signature="openappn(java.lang.String)[pri:0, instance:scripts.VerifyTest@5034c75a]" name="openappn" is-config="true" duration-ms="4864" started-at="2019-05-04T16:24:22Z" finished-at="2019-05-04T16:24:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openappn -->
+        <test-method status="PASS" signature="Verify()[pri:0, instance:scripts.VerifyTest@5034c75a]" name="Verify" duration-ms="2381" started-at="2019-05-04T16:24:27Z" finished-at="2019-05-04T16:24:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify -->
+        <test-method status="PASS" signature="closeappn()[pri:0, instance:scripts.VerifyTest@5034c75a]" name="closeappn" is-config="true" duration-ms="2765" started-at="2019-05-04T16:24:29Z" finished-at="2019-05-04T16:24:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeappn -->
+      </class> <!-- scripts.VerifyTest -->
+    </test> <!--  Firefox Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="tests">
+  <parameter name="browser" value="tests"/>
+  <test name=" Chrome Test(failed)" parallel="tests">
+    <parameter name="browser" value="tests"/>
+    <classes>
+      <class name="scripts.InvalidLoginTest">
+        <methods>
+          <include name="Invlaid"/>
+          <include name="openappn"/>
+          <include name="openappn"/>
+          <include name="closeappn"/>
+          <include name="closeappn"/>
+        </methods>
+      </class> <!-- scripts.InvalidLoginTest -->
+      <class name="scripts.ValidLoginLogoutTest">
+        <methods>
+          <include name="openappn"/>
+          <include name="openappn"/>
+          <include name="closeappn"/>
+          <include name="closeappn"/>
+        </methods>
+      </class> <!-- scripts.ValidLoginLogoutTest -->
+      <class name="scripts.VerifyTest">
+        <methods>
+          <include name="openappn"/>
+          <include name="openappn"/>
+          <include name="closeappn"/>
+          <include name="closeappn"/>
+        </methods>
+      </class> <!-- scripts.VerifyTest -->
+    </classes>
+  </test> <!--  Chrome Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
